@@ -1,0 +1,30 @@
+package ta_practice.util
+
+import java.util.regex.Pattern
+
+enum class TokenType(regExp: String)
+{
+    NUMBER("[0-9]+"),
+    WHILE("while"),
+    DONE("done"),
+    DO("do"),
+    PRINT("print"),
+    ID("[a-zA-z]"),
+    INC("\\++"),
+    ADD("\\+"),
+    SUB("-"),
+    MUL("\\*"),
+    DIV("/"),
+    LPAR("\\("),
+    RPAR("\\)"),
+    MOREEQUAL(">="),
+    LESSEQUAL("<="),
+    MORE(">"),
+    LESS("<"),
+    EQUAL("="),
+    NOTEQUAL("!="),
+    SPACE("[ \t\r\n]+"),
+    SEMICOLON(";");
+    val pattern: Pattern = Pattern.compile(regExp)
+
+}
