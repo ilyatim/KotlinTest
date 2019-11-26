@@ -30,7 +30,7 @@ class Lexeme(private val src: String)
                 pos = m.end()
                 if(tt == TokenType.SPACE)
                 {
-                    for (c in text)
+                    for(c in text)
                     {
                         if(c == '\n')
                         {
@@ -42,7 +42,9 @@ class Lexeme(private val src: String)
                             column++
                         }
                     }
-                } else {
+                }
+                else
+                {
                     column += text.length
                 }
                 return true

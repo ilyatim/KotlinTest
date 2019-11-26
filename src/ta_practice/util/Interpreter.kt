@@ -4,7 +4,7 @@ import ta_practice.data.node.*
 
 class Interpreter
 {
-    fun eval(n: ExprNode, vars: MutableMap<String, Int>): Int
+    private fun eval(n: ExprNode, vars: MutableMap<String, Int>): Int
     {
         return when(n)
         {
@@ -22,14 +22,14 @@ class Interpreter
                     TokenType.DIV -> {
                         if(r == 0)
                         {
-                            throw ArithmeticException("Деление на ноль")
+                            throw ArithmeticException("Деление на ноль в строке - ${n.op.line}, позиции - ${n.op.column}")
                         }
                         else
                         {
                             return l / r
                         }
                     }
-                    else -> throw IllegalArgumentException("Неверный TokenType")
+                    else -> throw IllegalArgumentException("Неверный TokenType в строке - ${n.op.line}, позиции - ${n.op.column}")
                 }
             }
         }
@@ -47,7 +47,7 @@ class Interpreter
         when(stmt)
         {
             is WhileNode -> {
-                while(evalCondition(stmt.condition, vars))
+                while(evalCondition(stmt, vars))
                 {
                     for(stmtNode in stmt.body)
                     {
@@ -63,9 +63,9 @@ class Interpreter
             }
         }
     }
-    private fun evalCondition(condition: ExprNode, vars: MutableMap<String, Int>) : Boolean
+    private fun evalCondition(whileNode: WhileNode, vars: MutableMap<String, Int>) : Boolean
     {
-        when(condition)
+        when(val condition = whileNode.condition)
         {
             is BinOpNode -> {
                 val p1 = eval(condition.left, vars)
@@ -82,15 +82,25 @@ class Interpreter
                         p1 >= p2
                     }
                     TokenType.LESSEQUAL -> {
-                        p2 <= p2
+                        p1 <= p2
+                    }
+                    TokenType.EQUAL -> {
+                        p1 == p2
+                    }
+                    TokenType.NOTEQUAL -> {
+                        p1 != p2
                     }
                     else -> {
-                        error("Неверное условие в цикле while")
+                        error("Неверное условие в цикле while." +
+                                " Строка - ${whileNode.token.line}," +
+                                " Столбец - ${whileNode.token.column}")
                     }
                 }
             }
             else -> {
-                error("Ожидалось условие в цикле while")
+                error("Ожидалось условие в цикле while." +
+                        " Строка - ${whileNode.token.line}," +
+                        " Столбец - ${whileNode.token.column}")
             }
         }
     }
