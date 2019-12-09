@@ -4,7 +4,7 @@ import ta_practice.data.node.StmtNode
 import ta_practice.util.*
 
 fun main() {
-    val text: String = """x = -(1 + 1) - 1;
+    val text: String = """x = -(1) - 1;
         |print(x);
         |""".trimMargin()
     val l: Lexeme = Lexeme(text)

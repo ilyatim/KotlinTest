@@ -9,7 +9,7 @@ class Lexeme(private val src: String) {
     var column = 1
 
     private var pos = 0
-    private val tokens: MutableList<Token> = ArrayList()
+    private val tokens: MutableList<Token> = arrayListOf()
 
     fun getLex(): MutableList<Token> {
         while (nextToken()) {

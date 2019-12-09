@@ -98,6 +98,7 @@ class Parser(private val tokens: List<Token>) {
         return e1
     }
     private fun expression(): ExprNode {
+        //TODO fix this path
         var e1 = addend()
         var token: Token?
         while (true) {
@@ -142,7 +143,7 @@ class Parser(private val tokens: List<Token>) {
                     return NumberNode(it)
                 }
                 SUB    -> {
-                    val e1 = parseExpression()
+                    val e1 = multiplier()
                     return NegativeNumberNode(e1)
                 }
                 ID     -> {

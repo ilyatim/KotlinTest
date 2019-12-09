@@ -9,7 +9,6 @@ enum class TokenType(regExp: String) {
     DO("do"),
     PRINT("print"),
     ID("[a-zA-z]"),
-    INC("\\++"),
     ADD("\\+"),
     SUB("-"),
     MUL("\\*"),
