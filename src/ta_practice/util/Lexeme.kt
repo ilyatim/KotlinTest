@@ -4,13 +4,20 @@ import ta_practice.data.Token
 import java.util.regex.Matcher
 import java.lang.RuntimeException
 
+/**
+ * @constructor
+ * @param src - an expression that needs to be broken down into tokens
+ */
 class Lexeme(private val src: String) {
-    var line = 1
-    var column = 1
+    var line = 1    // current row in src
+    var column = 1  // current column in src
 
     private var pos = 0
     private val tokens: MutableList<Token> = arrayListOf()
 
+    /**
+     * parse token in string
+     */
     fun getLex(): MutableList<Token> {
         while (nextToken()) {
 

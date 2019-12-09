@@ -2,12 +2,23 @@ package ta_practice.util
 
 import ta_practice.data.node.*
 
+
 class Interpreter {
+    /**
+     * analysis and implementation of the code passed as a parameter in the form of a list of node
+     * @param program - List of node
+     * @param vars - Map of variables
+     */
     fun evalProgram(program: List<StmtNode>, vars: MutableMap<String, Int>) {
         for (stmtNode in program) {
             evalStatement(stmtNode, vars)
         }
     }
+    /**
+     * analysis and implementation of the code passed as a parameter
+     * @param stmt - node
+     * @param vars - Map of variables
+     */
     private fun evalStatement(stmt: StmtNode, vars: MutableMap<String, Int>) {
         when (stmt) {
             is WhileNode    -> {
@@ -25,6 +36,11 @@ class Interpreter {
             }
         }
     }
+    /**
+     * evaluating a while loop expression
+     * @param whileNode
+     * @param vars - Map of variables
+     */
     private fun evalCondition(whileNode: WhileNode, vars: MutableMap<String, Int>) : Boolean {
         when (val condition = whileNode.condition) {
             is BinOpNode  -> {
@@ -66,9 +82,18 @@ class Interpreter {
             }
         }
     }
+    /**
+     * throw RuntimeException with your message
+     */
     private fun error(message: String): Nothing {
         throw RuntimeException(message)
     }
+
+    /**
+     * evaluating expression
+     * @param n - ExprNode
+     * @param vars - Map of variables
+     */
     private fun evalExpression(n: ExprNode, vars: MutableMap<String, Int>): Int {
         return when (n) {
             is NumberNode          -> Integer.parseInt(n.number.text)

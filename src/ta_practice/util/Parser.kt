@@ -5,9 +5,20 @@ import ta_practice.data.node.*
 import ta_practice.util.TokenType.*
 import java.lang.RuntimeException
 
+/**
+ * Constructor
+ * @param tokens - List of tokens of the expression
+ */
 class Parser(private val tokens: List<Token>) {
+    /**
+     * field denoting current position in list tokens
+     */
     private var pos = 0
 
+    /**
+     * Analysis program
+     * @return List of nodes
+     */
     fun parseProgram(): List<StmtNode> {
         val statements: MutableList<StmtNode> = mutableListOf()
         while (pos < tokens.size) {
@@ -26,9 +37,18 @@ class Parser(private val tokens: List<Token>) {
         }
         return null
     }
+
+    /**
+     * @param types - one or more token types
+     * @return match token in tokens
+     */
     private fun require(vararg types: TokenType): Token {
         return match(*types) ?: error("Ожидался ${types.contentToString()}")
     }
+    /**
+     * throw RuntimeException with your message
+     * shows position in expression
+     */
     private fun error(message: String): Nothing {
         if (pos < tokens.size) {
             throw RuntimeException(message +
@@ -38,6 +58,10 @@ class Parser(private val tokens: List<Token>) {
             throw RuntimeException("$message в конце выражения")
         }
     }
+    /**
+     * parse statement with WHILE, PRINT, ID
+     * @return node with the found TokenType or error
+     */
     private fun parseStatement(): StmtNode {
         val token: Token? = match(WHILE, PRINT, ID)
         token?.let {
@@ -83,6 +107,12 @@ class Parser(private val tokens: List<Token>) {
     }
     private fun parseCondition(): ExprNode = parseExpression()
     private fun parseExpression(): ExprNode = comparison()
+    /**
+     * causes expression()
+     * @see expression
+     * search comparison operators
+     * @return one of four node
+     */
     private fun comparison() : ExprNode {
         var e1 = expression()
         var token: Token?
@@ -97,8 +127,13 @@ class Parser(private val tokens: List<Token>) {
         }
         return e1
     }
+    /**
+     * causes addend()
+     * @see addend
+     * search ADD, SUB operators
+     * @return one of four node
+     */
     private fun expression(): ExprNode {
-        //TODO fix this path
         var e1 = addend()
         var token: Token?
         while (true) {
@@ -112,6 +147,12 @@ class Parser(private val tokens: List<Token>) {
         }
         return e1
     }
+    /**
+     * causes multiplier()
+     * @see multiplier
+     * search MUL, DIV operators
+     * @return one of four node
+     */
     private fun addend() : ExprNode {
         var e1 = multiplier()
         var token: Token?
@@ -126,6 +167,12 @@ class Parser(private val tokens: List<Token>) {
         }
         return e1
     }
+    /**
+     * causes elem()
+     * @see elem
+     * search bracketed expression
+     * @return one of four node
+     */
     private fun multiplier(): ExprNode {
         return if (match(LPAR) != null) {
             val expNode = parseExpression()
@@ -135,6 +182,10 @@ class Parser(private val tokens: List<Token>) {
             elem()
         }
     }
+    /**
+     * @return ExprNode (number, neg bracketed expression or id) or error
+     * @see error
+     */
     private fun elem(): ExprNode {
         val token = match(NUMBER, SUB, ID)
         token?.let {
