@@ -2,9 +2,8 @@ package ta_practice.util
 
 import java.util.regex.Pattern
 
-enum class TokenType(regExp: String)
-{
-    NUMBER("[0-9]+"),
+enum class TokenType(regExp: String) {
+    NUMBER("-?[0-9]+"),
     WHILE("while"),
     DONE("done"),
     DO("do"),
@@ -21,10 +20,10 @@ enum class TokenType(regExp: String)
     LESSEQUAL("<="),
     MORE(">"),
     LESS("<"),
+    TWOEQUAL("=="),
     EQUAL("="),
     NOTEQUAL("!="),
     SPACE("[ \t\r\n]+"),
     SEMICOLON(";");
     val pattern: Pattern = Pattern.compile(regExp)
-
 }
