@@ -96,6 +96,8 @@ class Parser(private val tokens: List<Token>) {
                         return VariableNode(token, body)
                     } else if (match(TWOEQUAL) != null) {
                         error("Сравнение не является присвоением")
+                    } else {
+                        error("Неверное присвоение переменной - " + token.text)
                     }
                 }
                 else -> {

@@ -97,7 +97,12 @@ class Interpreter {
     private fun evalExpression(n: ExprNode, vars: MutableMap<String, Int>): Int {
         return when (n) {
             is NumberNode          -> Integer.parseInt(n.number.text)
-            is VarNode             -> vars[n.id.text]!!
+            is VarNode             -> {
+                if (vars[n.id.text] == null) error("Необъявленная переменная - ${n.id.text}" +
+                        ", линия - ${n.id.line}" +
+                        ", позиции - ${n.id.column}")
+                else vars[n.id.text]!!
+            }
             is NegativeNumberNode  -> -1 * evalExpression(n.number, vars)
             is BinOpNode           -> {
                 val l = evalExpression(n.left, vars)

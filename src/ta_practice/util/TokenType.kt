@@ -3,7 +3,7 @@ package ta_practice.util
 import java.util.regex.Pattern
 
 enum class TokenType(regExp: String) {
-    NUMBER("-?[0-9]+"),
+    NUMBER("[0-9]+"),
     WHILE("while"),
     DONE("done"),
     DO("do"),
