@@ -1,32 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/ta_practice/main/mainFun.kt" line="6" mnemonic="8" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="f17ec63e-03d3-4dbf-9989-b188a3f044e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42f68e2c89122d98b7e3b9cf50edbbf0327c8f90" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42f68e2c89122d98b7e3b9cf50edbbf0327c8f90" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FifthSemester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FifthSemester.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/data/node/NegativeNumberNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/data/node/NegativeNumberNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/data/node/NumberNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/data/node/NumberNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/data/node/PrintNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/data/node/PrintNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/data/node/VarNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/data/node/VarNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/data/node/VariableNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/data/node/VariableNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/data/node/WhileNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/data/node/WhileNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/main/MainFunKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/main/MainFunKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/util/Interpreter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/util/Interpreter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/util/Lexeme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/util/Lexeme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/util/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/util/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/util/TokenType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthSemester/ta_practice/util/TokenType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ta_practice/main/mainFun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ta_practice/main/mainFun.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ta_practice/util/Interpreter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ta_practice/util/Interpreter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ta_practice/util/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ta_practice/util/Parser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ta_practice/util/TokenType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ta_practice/util/TokenType.kt" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,141 +13,25 @@
   <component name="FavoritesManager">
     <favorites_list name="KotlinTest" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ta_practice/data/node/SealedExprNode.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ta_practice/data/node/SealedStmtNode.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ta_practice/main/mainFun.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ta_practice/util/Interpreter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ta_practice/util/Parser.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ta_practice/util/Lexeme.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ta_practice/util/TokenType.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ta_practice/data/Token.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/ta_practice/test/ParserExample.kt" />
-        <option value="$PROJECT_DIR$/src/ta_practice/util/ParserOld.kt" />
-        <option value="$PROJECT_DIR$/src/ta_practice/util/Lexeme.kt" />
-        <option value="$PROJECT_DIR$/src/ta_practice/data/node/SealedExprNode.kt" />
-        <option value="$PROJECT_DIR$/src/ta_practice/data/node/SealedStmtNode.kt" />
-        <option value="$PROJECT_DIR$/src/ta_practice/data/Token.kt" />
-        <option value="$PROJECT_DIR$/src/ta_practice/util/Parser.kt" />
-        <option value="$PROJECT_DIR$/src/ta_practice/util/TokenType.kt" />
-        <option value="$PROJECT_DIR$/src/ta_practice/main/mainFun.kt" />
-        <option value="$PROJECT_DIR$/src/ta_practice/util/Interpreter.kt" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="125" />
-    <option name="width" value="1440" />
-    <option name="height" value="775" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
+  <component name="ProjectId" id="1X4S6OdfMh1185RzrXmvHgVAwT9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../labsCSA/lab4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1003009" />
     <property name="project.structure.side.proportion" value="0.5039019" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
     <configuration name="ta_practice.main.MainFunKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -190,6 +52,9 @@
         <item itemvalue="Kotlin.ta_practice.main.MainFunKt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -221,136 +86,42 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="27192000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info id="UI Designer" order="0" />
-      <window_info id="Favorites" order="1" sideWeight="0.5017065" side_tool="true" weight="0.26340482" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49829352" weight="0.3" />
-      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="SonarQube" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.328877" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.328877" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.328877" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.45042494" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="SonarLint" order="14" weight="0.328877" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32908848" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="UI Designer" order="0" />
-      <window_info id="Favorites" order="1" sideWeight="0.5017065" side_tool="true" weight="0.26340482" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49829352" visible="true" weight="0.3" />
-      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="SonarQube" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.328877" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.328877" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.328877" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.45042494" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="SonarLint" order="14" weight="0.328877" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32908848" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ta_practice/test/ParserExample.kt" />
-    <entry file="file://$PROJECT_DIR$/src/ta_practice/util/ParserOld.kt" />
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/io/Console.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ta_practice/data/node/SealedExprNode.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ta_practice/data/node/SealedStmtNode.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ta_practice/main/mainFun.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ta_practice/util/Parser.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ta_practice/util/Lexeme.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ta_practice/util/TokenType.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ta_practice/data/Token.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ta_practice/util/Interpreter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="620" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580303746226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="620" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1580303746226" />
+    <state x="548" y="168" key="FileChooserDialogImpl" timestamp="1580303715911">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580303715911" />
+    <state width="1342" height="276" key="GridCell.Tab.0.bottom" timestamp="1580303797482">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580303797482" />
+    <state width="1342" height="276" key="GridCell.Tab.0.center" timestamp="1580303797482">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580303797482" />
+    <state width="1342" height="276" key="GridCell.Tab.0.left" timestamp="1580303797482">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580303797482" />
+    <state width="1342" height="276" key="GridCell.Tab.0.right" timestamp="1580303797482">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580303797482" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1580303731840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580303731840" />
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581947196777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581947196777" />
   </component>
   <component name="masterDetails">
     <states>
